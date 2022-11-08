@@ -38,7 +38,7 @@ const App = () => {
 	};
 	return (
 		<CountContext.Provider value={{ count, onIncrement, onDecrement }}>
-			<Counter />
+			<Counter2 />
 		</CountContext.Provider>
 	);
 };
